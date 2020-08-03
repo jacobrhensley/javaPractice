@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class toaster {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.println("\nIm glad youre here. So you say you've been having some doubts on your identity and you feel like you might be a toaster?");
+        System.out.println("\nIm glad you're here. So you say you've been having some doubts on your identity and you feel like you might be a toaster?");
         System.out.println("\nI have a few questions to ask you to help us determine the severity of the problem......");
 
         System.out.print("Do you/ have you ever actually toasted anything? \n(y/n): ");
