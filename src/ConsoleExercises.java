@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class ConsoleExercises {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in).useDelimiter("\n");;
+        Scanner scanner = new Scanner(System.in).useDelimiter("\n");
 
         double pi = 3.14159;
 
@@ -33,7 +33,6 @@ public class ConsoleExercises {
         int length = scanner.nextInt();
         int area = length * width;
 
-        System.out.println("The area of your room is about " + area + " square feet!\n");
-
+        System.out.printf("The area of your room is about %s square feet!\n", area);
     }
 }
