@@ -24,7 +24,7 @@ public class ConsoleExercises {
 
         System.out.println("Please enter a sentance.\n");
         String sentence = scanner.next();
-        System.out.printf("The sentance you have entered is: %s\n\n", sentence);
+        System.out.printf("The sentance you have entered is: '%s'\n\n", sentence);
 
         System.out.println("Let's figure out the area of the room you're in!\n");
         System.out.print("About what is the width of your room in feet? : ");
@@ -32,7 +32,9 @@ public class ConsoleExercises {
         System.out.print("About what is the legnth of your room in feet? : ");
         int length = scanner.nextInt();
         int area = length * width;
+        int perimeter = (length * 2) + (width * 2);
 
         System.out.printf("The area of your room is about %s square feet!\n", area);
+        System.out.printf("The perimeter of your room is about %s feet around!\n", perimeter);
     }
 }
