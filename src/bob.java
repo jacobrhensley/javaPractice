@@ -14,9 +14,6 @@ public class bob {
             System.out.println("Bob: Whoa, chill out!");
         }else if(statement.isEmpty()){
             System.out.println("Bob: Fine. Be that way!");
-        }else{
-            System.out.println("Bob: Whatever.");
-        }
-        
+        }else System.out.println("Bob: Whatever.");
     }
 }
